@@ -5,7 +5,7 @@ Screen guide is a semi-transparent, sizable, moveable, coloured window that has 
 
 Screen Guide (Py version)
 I wrote this Python version so I could use it in Linux but you can also make the python version for Windows if you want to.
-Uses PysimpleGui(tkinter).  
+I used PySimpleGui(tkinter).  
 
 There are 2 image files included, ScreenGuideIcon.ico and ScreenGuideIcon.png.
 The python file (main.py) includes an OS check which will check for Windows or Linux.
