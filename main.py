@@ -48,7 +48,7 @@ def guide_window():
 
 def about_window():
     layouth = [[sg.Image(app_image, size=(50, 50)),
-               sg.Text('Name: Screen Guide (For Linux)' '\n' '\n'
+               sg.Text('Name: Screen Guide (For Linux/Mac)' '\n' '\n'
                        'Version: 0.2' '\n' '\n'
                        'Copyright: 2020' '\n' '\n'
                        'Author: BabsKy' '\n' '\n'
