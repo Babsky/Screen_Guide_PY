@@ -53,7 +53,7 @@ def about_window():
                        'Copyright: 2020' '\n' '\n'
                        'Author: BabsKy' '\n' '\n'
                        'Description: A guide to help you focus on a particular area of your screen.' '\n'
-                       'Can also be used as a colour filter.', size=(50, 12))],
+                       'It can also be used as a colour filter.', size=(50, 12))],
                [sg.CloseButton('Close')]]
 
     return sg.Window('About Screen Guide', layouth, icon=ico_image, modal=True).read()
