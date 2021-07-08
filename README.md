@@ -4,9 +4,10 @@ Screen guide is a semi-transparent, sizable, moveable, coloured window that has 
 2. It can be used as a colour filter. There is also a grey option if you want to tone down the glare of a bright screen in situations where you can't access the settings (for example a public computer). 
 
 Screen Guide (Py version)
-I wrote this Python version so I could use it in Linux but you can also make the python version for Windows if you want to.
-I used PySimpleGui(tkinter).  
+I wrote this Python version so I could use it in Linux and Mac but you can also make the python version for Windows if you want to.
+I used PySimpleGui(tkinter), so you will need to install PySimpleGui if you don't already have it.  
 
-There are 2 image files included, ScreenGuideIcon.ico and ScreenGuideIcon.png.
-The python file (main.py) includes an OS check which will check for Windows or Linux.
-The image file you need depends on which OS you make the exe on, Windows will use the .ico and Linux will use the .png.
+There are 3 image files included, ScreenGuideIcon.ico, ScreenGuideIcon.png and ScreenGuideIcon.icns.
+The main.py includes an OS check which will check for Windows or Linux.
+To use on Mac, you need the mac_main.py, ScreenGuideIcon.png and ScreenGuideIcon.icns. 
+The image file you need for the app icon depends on which OS you make the exe on, use the .ico for Windows, the .png for Linux and .icns for Mac.
