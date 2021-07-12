@@ -16,7 +16,6 @@ which_os = os_name
 
 """
 Window icons
-see F:\Py Projects\pysimplegui_window_icons.png
 for windows, if filename, MUST be ico
 for Linux MUST NOT be ico
 """
